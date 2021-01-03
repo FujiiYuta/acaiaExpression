@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB330EF25A1615F00599B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB330EE25A1615F00599B11 /* AppDelegate.swift */; };
+		ECB330F125A1615F00599B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB330F025A1615F00599B11 /* SceneDelegate.swift */; };
+		ECB330F325A1615F00599B11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB330F225A1615F00599B11 /* ViewController.swift */; };
+		ECB330F625A1615F00599B11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB330F425A1615F00599B11 /* Main.storyboard */; };
+		ECB330F825A1616100599B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB330F725A1616100599B11 /* Assets.xcassets */; };
+		ECB330FB25A1616100599B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB330F925A1616100599B11 /* LaunchScreen.storyboard */; };
+		ECB3310625A1616100599B11 /* acaiaExpressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB3310525A1616100599B11 /* acaiaExpressionTests.swift */; };
+		ECB3311125A1616100599B11 /* acaiaExpressionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB3311025A1616100599B11 /* acaiaExpressionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB3310225A1616100599B11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB330E325A1615F00599B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB330EA25A1615F00599B11;
+			remoteInfo = acaiaExpression;
+		};
+		ECB3310D25A1616100599B11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB330E325A1615F00599B11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB330EA25A1615F00599B11;
+			remoteInfo = acaiaExpression;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB330EB25A1615F00599B11 /* acaiaExpression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acaiaExpression.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB330EE25A1615F00599B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB330F025A1615F00599B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECB330F225A1615F00599B11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB330F525A1615F00599B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB330F725A1616100599B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB330FA25A1616100599B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB330FC25A1616100599B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB3310125A1616100599B11 /* acaiaExpressionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acaiaExpressionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB3310525A1616100599B11 /* acaiaExpressionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acaiaExpressionTests.swift; sourceTree = "<group>"; };
+		ECB3310725A1616100599B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB3310C25A1616100599B11 /* acaiaExpressionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acaiaExpressionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB3311025A1616100599B11 /* acaiaExpressionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acaiaExpressionUITests.swift; sourceTree = "<group>"; };
+		ECB3311225A1616100599B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB330E825A1615F00599B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB330FE25A1616100599B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3310925A1616100599B11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB330E225A1615F00599B11 = {
+			isa = PBXGroup;
+			children = (
+				ECB330ED25A1615F00599B11 /* acaiaExpression */,
+				ECB3310425A1616100599B11 /* acaiaExpressionTests */,
+				ECB3310F25A1616100599B11 /* acaiaExpressionUITests */,
+				ECB330EC25A1615F00599B11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB330EC25A1615F00599B11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB330EB25A1615F00599B11 /* acaiaExpression.app */,
+				ECB3310125A1616100599B11 /* acaiaExpressionTests.xctest */,
+				ECB3310C25A1616100599B11 /* acaiaExpressionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB330ED25A1615F00599B11 /* acaiaExpression */ = {
+			isa = PBXGroup;
+			children = (
+				ECB330EE25A1615F00599B11 /* AppDelegate.swift */,
+				ECB330F025A1615F00599B11 /* SceneDelegate.swift */,
+				ECB330F225A1615F00599B11 /* ViewController.swift */,
+				ECB330F425A1615F00599B11 /* Main.storyboard */,
+				ECB330F725A1616100599B11 /* Assets.xcassets */,
+				ECB330F925A1616100599B11 /* LaunchScreen.storyboard */,
+				ECB330FC25A1616100599B11 /* Info.plist */,
+			);
+			path = acaiaExpression;
+			sourceTree = "<group>";
+		};
+		ECB3310425A1616100599B11 /* acaiaExpressionTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3310525A1616100599B11 /* acaiaExpressionTests.swift */,
+				ECB3310725A1616100599B11 /* Info.plist */,
+			);
+			path = acaiaExpressionTests;
+			sourceTree = "<group>";
+		};
+		ECB3310F25A1616100599B11 /* acaiaExpressionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB3311025A1616100599B11 /* acaiaExpressionUITests.swift */,
+				ECB3311225A1616100599B11 /* Info.plist */,
+			);
+			path = acaiaExpressionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB330EA25A1615F00599B11 /* acaiaExpression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB3311525A1616100599B11 /* Build configuration list for PBXNativeTarget "acaiaExpression" */;
+			buildPhases = (
+				ECB330E725A1615F00599B11 /* Sources */,
+				ECB330E825A1615F00599B11 /* Frameworks */,
+				ECB330E925A1615F00599B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = acaiaExpression;
+			productName = acaiaExpression;
+			productReference = ECB330EB25A1615F00599B11 /* acaiaExpression.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB3310025A1616100599B11 /* acaiaExpressionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB3311825A1616100599B11 /* Build configuration list for PBXNativeTarget "acaiaExpressionTests" */;
+			buildPhases = (
+				ECB330FD25A1616100599B11 /* Sources */,
+				ECB330FE25A1616100599B11 /* Frameworks */,
+				ECB330FF25A1616100599B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB3310325A1616100599B11 /* PBXTargetDependency */,
+			);
+			name = acaiaExpressionTests;
+			productName = acaiaExpressionTests;
+			productReference = ECB3310125A1616100599B11 /* acaiaExpressionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB3310B25A1616100599B11 /* acaiaExpressionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB3311B25A1616100599B11 /* Build configuration list for PBXNativeTarget "acaiaExpressionUITests" */;
+			buildPhases = (
+				ECB3310825A1616100599B11 /* Sources */,
+				ECB3310925A1616100599B11 /* Frameworks */,
+				ECB3310A25A1616100599B11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB3310E25A1616100599B11 /* PBXTargetDependency */,
+			);
+			name = acaiaExpressionUITests;
+			productName = acaiaExpressionUITests;
+			productReference = ECB3310C25A1616100599B11 /* acaiaExpressionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB330E325A1615F00599B11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "藤井 悠太";
+				TargetAttributes = {
+					ECB330EA25A1615F00599B11 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					ECB3310025A1616100599B11 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = ECB330EA25A1615F00599B11;
+					};
+					ECB3310B25A1616100599B11 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = ECB330EA25A1615F00599B11;
+					};
+				};
+			};
+			buildConfigurationList = ECB330E625A1615F00599B11 /* Build configuration list for PBXProject "acaiaExpression" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB330E225A1615F00599B11;
+			productRefGroup = ECB330EC25A1615F00599B11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB330EA25A1615F00599B11 /* acaiaExpression */,
+				ECB3310025A1616100599B11 /* acaiaExpressionTests */,
+				ECB3310B25A1616100599B11 /* acaiaExpressionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB330E925A1615F00599B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB330FB25A1616100599B11 /* LaunchScreen.storyboard in Resources */,
+				ECB330F825A1616100599B11 /* Assets.xcassets in Resources */,
+				ECB330F625A1615F00599B11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB330FF25A1616100599B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3310A25A1616100599B11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB330E725A1615F00599B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB330F325A1615F00599B11 /* ViewController.swift in Sources */,
+				ECB330EF25A1615F00599B11 /* AppDelegate.swift in Sources */,
+				ECB330F125A1615F00599B11 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB330FD25A1616100599B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3310625A1616100599B11 /* acaiaExpressionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB3310825A1616100599B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB3311125A1616100599B11 /* acaiaExpressionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB3310325A1616100599B11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB330EA25A1615F00599B11 /* acaiaExpression */;
+			targetProxy = ECB3310225A1616100599B11 /* PBXContainerItemProxy */;
+		};
+		ECB3310E25A1616100599B11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB330EA25A1615F00599B11 /* acaiaExpression */;
+			targetProxy = ECB3310D25A1616100599B11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB330F425A1615F00599B11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB330F525A1615F00599B11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB330F925A1616100599B11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB330FA25A1616100599B11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB3311325A1616100599B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB3311425A1616100599B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB3311625A1616100599B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GHTNCM9Z4;
+				INFOPLIST_FILE = acaiaExpression/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutafuj.acaiaExpression;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB3311725A1616100599B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GHTNCM9Z4;
+				INFOPLIST_FILE = acaiaExpression/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutafuj.acaiaExpression;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECB3311925A1616100599B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GHTNCM9Z4;
+				INFOPLIST_FILE = acaiaExpressionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutafuj.acaiaExpressionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acaiaExpression.app/acaiaExpression";
+			};
+			name = Debug;
+		};
+		ECB3311A25A1616100599B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GHTNCM9Z4;
+				INFOPLIST_FILE = acaiaExpressionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutafuj.acaiaExpressionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/acaiaExpression.app/acaiaExpression";
+			};
+			name = Release;
+		};
+		ECB3311C25A1616100599B11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GHTNCM9Z4;
+				INFOPLIST_FILE = acaiaExpressionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutafuj.acaiaExpressionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = acaiaExpression;
+			};
+			name = Debug;
+		};
+		ECB3311D25A1616100599B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GHTNCM9Z4;
+				INFOPLIST_FILE = acaiaExpressionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yutafuj.acaiaExpressionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = acaiaExpression;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB330E625A1615F00599B11 /* Build configuration list for PBXProject "acaiaExpression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3311325A1616100599B11 /* Debug */,
+				ECB3311425A1616100599B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB3311525A1616100599B11 /* Build configuration list for PBXNativeTarget "acaiaExpression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3311625A1616100599B11 /* Debug */,
+				ECB3311725A1616100599B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB3311825A1616100599B11 /* Build configuration list for PBXNativeTarget "acaiaExpressionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3311925A1616100599B11 /* Debug */,
+				ECB3311A25A1616100599B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB3311B25A1616100599B11 /* Build configuration list for PBXNativeTarget "acaiaExpressionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB3311C25A1616100599B11 /* Debug */,
+				ECB3311D25A1616100599B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECB330E325A1615F00599B11 /* Project object */;
+}
