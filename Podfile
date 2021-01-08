@@ -1,21 +1,17 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '10.0'
+use_frameworks!
 
 target 'acaiaExpression' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for acaiaExpression
   pod 'AcaiaSDK'
   pod 'MBProgressHUD', '~> 1.1.0'
+end
 
-  target 'acaiaExpressionTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+target 'acaiaExpressionTests' do
+  pod 'AcaiaSDK'
+  pod 'MBProgressHUD', '~> 1.1.0'
+end
 
-  target 'acaiaExpressionUITests' do
-    # Pods for testing
-  end
-
+target 'acaiaExpressionUITests' do
+  pod 'AcaiaSDK'
+  pod 'MBProgressHUD', '~> 1.1.0'
 end

@@ -3,17 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D16EC7696BC18723624759 /* Pods_acaiaExpressionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F08326AEECA9EBF159840A /* Pods_acaiaExpressionTests.framework */; };
-		448F379DB8653EFC23321199 /* Pods_acaiaExpression_acaiaExpressionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41697FCDBF0BC63746D1513 /* Pods_acaiaExpression_acaiaExpressionUITests.framework */; };
 		75CEB701C1400DC820637C28 /* Pods_acaiaExpression.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B49DF1A33B7CFDD9C7B3A5 /* Pods_acaiaExpression.framework */; };
+		AD42BC004ACE6D2CFE4E6E26 /* Pods_acaiaExpressionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A284AAAB9A371B7E1339CD94 /* Pods_acaiaExpressionTests.framework */; };
+		E7BDFF9A248C87F74182826E /* Pods_acaiaExpressionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E8AE77F72ECFF6F17B0314 /* Pods_acaiaExpressionUITests.framework */; };
+		EC17566A25A8399600D2ED6F /* AcaiaScaleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC17566825A8399600D2ED6F /* AcaiaScaleTableVC.swift */; };
+		EC17566B25A8399600D2ED6F /* AcaiaScaleTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC17566925A8399600D2ED6F /* AcaiaScaleTableVC.xib */; };
+		EC68E7F325A852F00041E3CD /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC68E7F225A852F00041E3CD /* Toast.swift */; };
 		ECB330EF25A1615F00599B11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB330EE25A1615F00599B11 /* AppDelegate.swift */; };
 		ECB330F125A1615F00599B11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB330F025A1615F00599B11 /* SceneDelegate.swift */; };
 		ECB330F825A1616100599B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB330F725A1616100599B11 /* Assets.xcassets */; };
-		ECB330FB25A1616100599B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB330F925A1616100599B11 /* LaunchScreen.storyboard */; };
 		ECB3310625A1616100599B11 /* acaiaExpressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB3310525A1616100599B11 /* acaiaExpressionTests.swift */; };
 		ECB3311125A1616100599B11 /* acaiaExpressionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB3311025A1616100599B11 /* acaiaExpressionUITests.swift */; };
 		ECB3312025A161AD00599B11 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB3311E25A161AD00599B11 /* MainViewController.swift */; };
@@ -39,19 +41,23 @@
 
 /* Begin PBXFileReference section */
 		02287A55E70ED88152CB0283 /* Pods-acaiaExpression.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpression.debug.xcconfig"; path = "Target Support Files/Pods-acaiaExpression/Pods-acaiaExpression.debug.xcconfig"; sourceTree = "<group>"; };
+		1D55644733757FA15DB70298 /* Pods-acaiaExpressionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpressionTests.release.xcconfig"; path = "Target Support Files/Pods-acaiaExpressionTests/Pods-acaiaExpressionTests.release.xcconfig"; sourceTree = "<group>"; };
 		20B49DF1A33B7CFDD9C7B3A5 /* Pods_acaiaExpression.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acaiaExpression.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD2685C8EB3F9E754DE4E9D /* Pods-acaiaExpressionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpressionTests.debug.xcconfig"; path = "Target Support Files/Pods-acaiaExpressionTests/Pods-acaiaExpressionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		39FD6E9BC4C2507FFB9D6C68 /* Pods-acaiaExpression-acaiaExpressionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpression-acaiaExpressionUITests.debug.xcconfig"; path = "Target Support Files/Pods-acaiaExpression-acaiaExpressionUITests/Pods-acaiaExpression-acaiaExpressionUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3A7F1269E283F7E5D7D06CEF /* Pods-acaiaExpression.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpression.release.xcconfig"; path = "Target Support Files/Pods-acaiaExpression/Pods-acaiaExpression.release.xcconfig"; sourceTree = "<group>"; };
-		46F08326AEECA9EBF159840A /* Pods_acaiaExpressionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acaiaExpressionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B9268247D39B945D7BFD13E /* Pods-acaiaExpressionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpressionTests.release.xcconfig"; path = "Target Support Files/Pods-acaiaExpressionTests/Pods-acaiaExpressionTests.release.xcconfig"; sourceTree = "<group>"; };
 		6CA6936A83C60521EC746600 /* Pods-acaiaExpression-acaiaExpressionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpression-acaiaExpressionUITests.release.xcconfig"; path = "Target Support Files/Pods-acaiaExpression-acaiaExpressionUITests/Pods-acaiaExpression-acaiaExpressionUITests.release.xcconfig"; sourceTree = "<group>"; };
-		83544595F1FF490972752754 /* Pods-acaiaExpressionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpressionTests.debug.xcconfig"; path = "Target Support Files/Pods-acaiaExpressionTests/Pods-acaiaExpressionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B41697FCDBF0BC63746D1513 /* Pods_acaiaExpression_acaiaExpressionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acaiaExpression_acaiaExpressionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2D5FAF6A02938E7B73E098 /* Pods-acaiaExpressionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpressionUITests.debug.xcconfig"; path = "Target Support Files/Pods-acaiaExpressionUITests/Pods-acaiaExpressionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90E8AE77F72ECFF6F17B0314 /* Pods_acaiaExpressionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acaiaExpressionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A284AAAB9A371B7E1339CD94 /* Pods_acaiaExpressionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_acaiaExpressionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51B8225AB6FAD4739EF2CA4 /* Pods-acaiaExpressionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-acaiaExpressionUITests.release.xcconfig"; path = "Target Support Files/Pods-acaiaExpressionUITests/Pods-acaiaExpressionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC17566825A8399600D2ED6F /* AcaiaScaleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcaiaScaleTableVC.swift; sourceTree = "<group>"; };
+		EC17566925A8399600D2ED6F /* AcaiaScaleTableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AcaiaScaleTableVC.xib; sourceTree = "<group>"; };
+		EC68E7F225A852F00041E3CD /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		ECB330EB25A1615F00599B11 /* acaiaExpression.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = acaiaExpression.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB330EE25A1615F00599B11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECB330F025A1615F00599B11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ECB330F725A1616100599B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECB330FA25A1616100599B11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECB330FC25A1616100599B11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECB3310125A1616100599B11 /* acaiaExpressionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = acaiaExpressionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB3310525A1616100599B11 /* acaiaExpressionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = acaiaExpressionTests.swift; sourceTree = "<group>"; };
@@ -76,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D16EC7696BC18723624759 /* Pods_acaiaExpressionTests.framework in Frameworks */,
+				AD42BC004ACE6D2CFE4E6E26 /* Pods_acaiaExpressionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				448F379DB8653EFC23321199 /* Pods_acaiaExpression_acaiaExpressionUITests.framework in Frameworks */,
+				E7BDFF9A248C87F74182826E /* Pods_acaiaExpressionUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,10 +104,11 @@
 				3A7F1269E283F7E5D7D06CEF /* Pods-acaiaExpression.release.xcconfig */,
 				39FD6E9BC4C2507FFB9D6C68 /* Pods-acaiaExpression-acaiaExpressionUITests.debug.xcconfig */,
 				6CA6936A83C60521EC746600 /* Pods-acaiaExpression-acaiaExpressionUITests.release.xcconfig */,
-				83544595F1FF490972752754 /* Pods-acaiaExpressionTests.debug.xcconfig */,
-				4B9268247D39B945D7BFD13E /* Pods-acaiaExpressionTests.release.xcconfig */,
+				2FD2685C8EB3F9E754DE4E9D /* Pods-acaiaExpressionTests.debug.xcconfig */,
+				1D55644733757FA15DB70298 /* Pods-acaiaExpressionTests.release.xcconfig */,
+				7C2D5FAF6A02938E7B73E098 /* Pods-acaiaExpressionUITests.debug.xcconfig */,
+				A51B8225AB6FAD4739EF2CA4 /* Pods-acaiaExpressionUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,10 +140,12 @@
 				ECB330EE25A1615F00599B11 /* AppDelegate.swift */,
 				ECB330F025A1615F00599B11 /* SceneDelegate.swift */,
 				ECB330F725A1616100599B11 /* Assets.xcassets */,
-				ECB330F925A1616100599B11 /* LaunchScreen.storyboard */,
 				ECB330FC25A1616100599B11 /* Info.plist */,
 				ECB3311E25A161AD00599B11 /* MainViewController.swift */,
 				ECB3311F25A161AD00599B11 /* MainViewController.xib */,
+				EC17566825A8399600D2ED6F /* AcaiaScaleTableVC.swift */,
+				EC17566925A8399600D2ED6F /* AcaiaScaleTableVC.xib */,
+				EC68E7F225A852F00041E3CD /* Toast.swift */,
 			);
 			path = acaiaExpression;
 			sourceTree = "<group>";
@@ -163,8 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				20B49DF1A33B7CFDD9C7B3A5 /* Pods_acaiaExpression.framework */,
-				B41697FCDBF0BC63746D1513 /* Pods_acaiaExpression_acaiaExpressionUITests.framework */,
-				46F08326AEECA9EBF159840A /* Pods_acaiaExpressionTests.framework */,
+				A284AAAB9A371B7E1339CD94 /* Pods_acaiaExpressionTests.framework */,
+				90E8AE77F72ECFF6F17B0314 /* Pods_acaiaExpressionUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,10 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB3311825A1616100599B11 /* Build configuration list for PBXNativeTarget "acaiaExpressionTests" */;
 			buildPhases = (
-				662D79C6FFB1EEEBE93CC2FF /* [CP] Check Pods Manifest.lock */,
+				044859AAD164FBDC2A1258D6 /* [CP] Check Pods Manifest.lock */,
 				ECB330FD25A1616100599B11 /* Sources */,
 				ECB330FE25A1616100599B11 /* Frameworks */,
 				ECB330FF25A1616100599B11 /* Resources */,
+				C81CA9B55EAF2298D10DBB09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,11 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB3311B25A1616100599B11 /* Build configuration list for PBXNativeTarget "acaiaExpressionUITests" */;
 			buildPhases = (
-				8743E1ECA0C77B9BAB3E832D /* [CP] Check Pods Manifest.lock */,
+				F81FBD526F419A279A208CE3 /* [CP] Check Pods Manifest.lock */,
 				ECB3310825A1616100599B11 /* Sources */,
 				ECB3310925A1616100599B11 /* Frameworks */,
 				ECB3310A25A1616100599B11 /* Resources */,
-				8F239B23E66903EA7D0F040A /* [CP] Embed Pods Frameworks */,
+				5A35E1B052D8D646346A75CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,8 +288,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB330FB25A1616100599B11 /* LaunchScreen.storyboard in Resources */,
 				ECB3312125A161AD00599B11 /* MainViewController.xib in Resources */,
+				EC17566B25A8399600D2ED6F /* AcaiaScaleTableVC.xib in Resources */,
 				ECB330F825A1616100599B11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +311,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		662D79C6FFB1EEEBE93CC2FF /* [CP] Check Pods Manifest.lock */ = {
+		044859AAD164FBDC2A1258D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,43 +333,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8743E1ECA0C77B9BAB3E832D /* [CP] Check Pods Manifest.lock */ = {
+		5A35E1B052D8D646346A75CE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-acaiaExpression-acaiaExpressionUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8F239B23E66903EA7D0F040A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-acaiaExpression-acaiaExpressionUITests/Pods-acaiaExpression-acaiaExpressionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-acaiaExpressionUITests/Pods-acaiaExpressionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-acaiaExpression-acaiaExpressionUITests/Pods-acaiaExpression-acaiaExpressionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-acaiaExpressionUITests/Pods-acaiaExpressionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-acaiaExpression-acaiaExpressionUITests/Pods-acaiaExpression-acaiaExpressionUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-acaiaExpressionUITests/Pods-acaiaExpressionUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		96439CEC54545CC1726A937E /* [CP] Check Pods Manifest.lock */ = {
@@ -401,6 +389,45 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-acaiaExpression/Pods-acaiaExpression-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C81CA9B55EAF2298D10DBB09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-acaiaExpressionTests/Pods-acaiaExpressionTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-acaiaExpressionTests/Pods-acaiaExpressionTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-acaiaExpressionTests/Pods-acaiaExpressionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81FBD526F419A279A208CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-acaiaExpressionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -410,6 +437,8 @@
 			files = (
 				ECB3312025A161AD00599B11 /* MainViewController.swift in Sources */,
 				ECB330EF25A1615F00599B11 /* AppDelegate.swift in Sources */,
+				EC68E7F325A852F00041E3CD /* Toast.swift in Sources */,
+				EC17566A25A8399600D2ED6F /* AcaiaScaleTableVC.swift in Sources */,
 				ECB330F125A1615F00599B11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,17 +473,6 @@
 			targetProxy = ECB3310D25A1616100599B11 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		ECB330F925A1616100599B11 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECB330FA25A1616100599B11 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ECB3311325A1616100599B11 /* Debug */ = {
@@ -611,7 +629,7 @@
 		};
 		ECB3311925A1616100599B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83544595F1FF490972752754 /* Pods-acaiaExpressionTests.debug.xcconfig */;
+			baseConfigurationReference = 2FD2685C8EB3F9E754DE4E9D /* Pods-acaiaExpressionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -634,7 +652,7 @@
 		};
 		ECB3311A25A1616100599B11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B9268247D39B945D7BFD13E /* Pods-acaiaExpressionTests.release.xcconfig */;
+			baseConfigurationReference = 1D55644733757FA15DB70298 /* Pods-acaiaExpressionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -657,7 +675,7 @@
 		};
 		ECB3311C25A1616100599B11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39FD6E9BC4C2507FFB9D6C68 /* Pods-acaiaExpression-acaiaExpressionUITests.debug.xcconfig */;
+			baseConfigurationReference = 7C2D5FAF6A02938E7B73E098 /* Pods-acaiaExpressionUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -678,7 +696,7 @@
 		};
 		ECB3311D25A1616100599B11 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CA6936A83C60521EC746600 /* Pods-acaiaExpression-acaiaExpressionUITests.release.xcconfig */;
+			baseConfigurationReference = A51B8225AB6FAD4739EF2CA4 /* Pods-acaiaExpressionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
